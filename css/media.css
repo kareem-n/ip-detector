@@ -1,0 +1,39 @@
+@media (min-width: 0px) {
+  header .ip-info,
+  header .ip-location {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .ip-title {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  header .ip-info,
+  header .ip-location {
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  header .ip-info,
+  header .ip-location {
+    width: 50%;
+  }
+  .ip-title {
+    text-align: left;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
